@@ -132,7 +132,6 @@ footer {
   text-align: center;
 }
 
-/* Анимация */
 
 .hero-text h1 {
   animation-name: slide-in;
@@ -159,7 +158,6 @@ footer {
   }
 }
 
-/* Иконка */
 
 .features {
   position: relative;
@@ -174,7 +172,11 @@ footer {
   transform: translateX(-50%);
   width: 50px;
   height: 50px;
-  background-image: url('icon.png');
+  background-image: url('img/headphones-png-19.png');
   background-repeat: no-repeat;
   background-size: contain;
+}
+.product img:hover {
+	transform: rotate(360deg);
+	transition: transform 0.5s ease-in-out;
 }
